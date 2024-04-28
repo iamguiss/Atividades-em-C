@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "teste1.C": "cpp",
+        "teste2.C": "cpp",
+        "teste2 copy.C": "cpp",
+        "teste3.C": "cpp",
+        "teste2b.C": "cpp",
+        "stdio.h": "c"
+    }
+}
