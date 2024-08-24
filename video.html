@@ -1,0 +1,53 @@
+Passo 1: Preparar o Vídeo e o Arquivo HTML
+Obtenha o vídeo que você deseja colocar no site. Ele deve estar em um formato compatível com navegadores (preferencialmente .mp4).
+
+Crie um arquivo HTML no seu computador:
+Abra o Bloco de Notas (Windows) ou TextEdit (Mac).
+Copie e cole o seguinte código no arquivo:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Vídeo</title>
+</head>
+<body>
+    <video width="600" controls>
+        <source src="nome_do_video.mp4" type="video/mp4">
+        Seu navegador não suporta a exibição de vídeos.
+    </video>
+</body>
+</html>
+
+Salve o arquivo com o nome index.html na mesma pasta onde está o vídeo.
+Substitua nome_do_video.mp4 pelo nome do arquivo do vídeo.
+
+Passo 2: Conectar-se ao Servidor via FTP
+Baixe e instale um cliente FTP como o FileZilla.
+
+    Abra o FileZilla e conecte-se ao servidor:
+        No campo Host, digite o endereço do servidor FTP (exemplo: ftp.seudominio.com).
+        No campo Nome de Usuário, digite seu nome de usuário do FTP.
+        No campo Senha, digite sua senha do FTP.
+        No campo Porta, digite 21 (a menos que o provedor tenha especificado outra porta).
+        Clique em Conexão Rápida.
+
+    
+Passo 3: Enviar os Arquivos para o Servidor
+    Navegue até a pasta pública do servidor onde os arquivos do site são armazenados (geralmente chamada de public_html, www, ou htdocs).
+        
+        Arraste e solte os arquivos:
+        
+        Arraste o arquivo index.html e o vídeo (ex: nome_do_video.mp4) da pasta do seu computador para a pasta pública no servidor FTP.
+
+        Aguarde a transferência dos arquivos completar.
+
+Passo 4: Verificar se o Vídeo está Funcionando
+        Abra o navegador e digite o endereço do site seguido de /index.html (exemplo: 
+        
+        http://seudominio.com/index.html).
+
+Passo 5: Notificar o Suporte (se necessário)
+        Caso encontre algum problema durante o processo, entre em contato com o suporte técnico para assistência.
+

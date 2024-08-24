@@ -1,5 +1,5 @@
 
-//Escreva uma função recursiva que recebe um array de inteiros e retorna a soma dos elementos do array.
+//Escreva uma função recursiva que recebe um array de inteiros e retorna o produto dos elementos do array.
 #include <stdio.h>
 
 int SomaArray(int n,int arr[]){
